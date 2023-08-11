@@ -7,9 +7,9 @@ programa
 	
 	funcao inicio()
 	{
-		real hora, minutosHora, segundosHora
+		real hora, minutosHora, segundosHora
 
-		escreva("Qual a hora você quer convertar: ")
+		escreva("Qual a hora você quer converter: ")
 		leia(hora)
 
 		minutosHora = hora * 60
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 490; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

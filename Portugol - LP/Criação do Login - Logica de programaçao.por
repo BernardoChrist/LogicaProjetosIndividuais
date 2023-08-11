@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia usuario, senha				//variaveis = email + senha
+		cadeia usuario, senha				//variaveis = email + senha. Usar matriz
 
 		escreva("Bem vindo a aula de lógica de programação\nPara realizar o Login insira seu nome de usuario: ")
 		leia(usuario)					//se o e-mail estiver incorreto?
@@ -13,7 +13,7 @@ programa
 		limpa()
 		escreva("E-mail: "+usuario+"\nSenha: "+senha)
 		limpa()
-
+											//usar looping		
 		se(usuario == "Bernardo" e senha == "123") 
 		{
 			escreva("Bem vindo "+usuario)
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 520; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
